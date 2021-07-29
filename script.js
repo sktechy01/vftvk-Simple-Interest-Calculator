@@ -13,7 +13,7 @@ function compute()
     }
     else
     {
-        document.getElementById("result").innerHTML="If you deposit <span style='background-color:yellow'>"+principal+"</span>,\<br\>at an interest rate of <span style='background-color:yellow'>"+rate+"%</span>\<br\>You will receive an amount of <span style='background-color:yellow'>"+interest+"</span>,\<br\>in the year <span style='background-color:yellow'>"+year+"</span>\<br\>"
+        document.getElementById("result").innerHTML="If you deposit <span class='bgcolor-yellow'>"+principal+"</span>,\<br\>at an interest rate of <span class='bgcolor-yellow'>"+rate+"%</span>\<br\>You will receive an amount of <span class='bgcolor-yellow'>"+interest+"</span>,\<br\>in the year <span class='bgcolor-yellow'>"+year+"</span>\<br\>"
     }
 }
         
